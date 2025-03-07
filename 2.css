@@ -1,80 +1,81 @@
 body {
-    background-color:#f26460;
-    overflow: auto;
-  }
-  
-  body, html {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  div{
-    display: none;
-  } 
-  svg{
-    width:100%;
-    height:100%;
-    visibility:hidden;
-    overflow:visible;
-  }
-  .container {
-    visibility: visible; 
-    display: block; 
-    font-size: 4rem;
-    color: white;
-    text-align: center;
-    padding: 2rem;
-    display: block; 
-    margin-top: 0rem;
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .container strong {
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-  }
-  
-.mensaje-navidad {
-    font-size: 1.2rem;
-    color: #f1f8f2; 
-    margin-top: -0.5rem;
-    text-align: justify;
-    line-height: 1.8;
-    font-family: 'Arial', sans-serif;
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  /* Настройки для iPhone 13 (размер экрана 390x844px, но с высоким ppi) */
-@media screen and (max-width: 390px) {
-  .container {
-    font-size: 3rem; 
-    padding: 1.5rem;   
-    margin-top: -4rem; 
-    max-width: 85%;
-  }
-
-  .mensaje-navidad {
-    font-size: 1.1rem;
-    line-height: 1.6; 
-    padding: 0 1.5rem; 
-  }
+  background-color:#f26460;
+  overflow: auto;
 }
-  
-.h1 {
-  color: #ffffff;
-  margin-top: 2rem;
-  font-size: 3rem;
+
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+div{
+  display: none;
+} 
+svg{
+  width:100%;
+  height:100%;
+  visibility:hidden;
+  overflow:visible;
+}
+.container {
+  visibility: visible; 
+  display: block; 
+  font-size: 4rem;
+  color: white;
   text-align: center;
+  padding: 2rem;
+  display: block; 
+  margin-top: 2rem; /* Смещение текста ниже */
+  max-width: 90%; /* Сделал текст шире */
+  margin-left: auto;
+  margin-right: auto;
+}
+.container strong {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.mensaje-navidad {
+  font-size: 1.2rem;
+  color: #f1f8f2; 
+  margin-top: 1rem; /* Смещение ниже */
+  text-align: justify;
+  line-height: 1.8;
+  font-family: 'Arial', sans-serif;
+  max-width: 90%; /* Сделал текст шире */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Настройки для iPhone 13 (размер экрана 390x844px, но с высоким ppi) */
+@media screen and (max-width: 390px) {
+.container {
+  font-size: 3rem; 
+  padding: 1.5rem;   
+  margin-top: 4rem; /* Смещение ниже */
+  max-width: 95%; /* Сделал текст шире */
+}
+
+.mensaje-navidad {
+  font-size: 1.1rem;
+  line-height: 1.6; 
+  padding: 0 1.5rem;
+  max-width: 95%; /* Сделал текст шире */
+}
+}
+
+.h1 {
+color: #ffffff;
+margin-top: 4rem; /* Смещение ниже */
+font-size: 3rem;
+text-align: center;
 }
 
 /* Коррекция заголовка для iPhone 13 */
 @media screen and (max-width: 390px) {
-  .h1 {
-    margin-top: 4rem;
-    font-size: 2.2rem;
-  }
+.h1 {
+  margin-top: 6rem; /* Смещение ниже */
+  font-size: 2.2rem;
+}
 }
