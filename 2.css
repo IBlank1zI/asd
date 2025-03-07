@@ -21,11 +21,12 @@ svg{
 .container {
   visibility: visible; 
   display: block; 
-  font-size: 4.5rem;
+  font-size: 4rem;
   color: white;
   text-align: center;
-  padding: 3rem;
-  margin-top: -4rem;
+  padding: 2rem;
+  display: block; 
+  margin-top: -6rem;
   max-width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -36,38 +37,38 @@ svg{
 }
 
 .mensaje-navidad {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: #f1f8f2; 
-  margin-top: 1rem;
-  text-align: center;
+  margin-top: -0.5rem;
+  text-align: justify;
   line-height: 1.8;
   font-family: 'Arial', sans-serif;
   max-width: 90%;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 2rem;
 }
 
-/* Настройки для iPhone 13 (размер экрана 390x844px) */
+/* Настройки для iPhone 13 (размер экрана 390x844px, но с высоким ppi) */
 @media screen and (max-width: 390px) {
 .container {
-  font-size: 3.5rem; 
-  padding: 2rem;   
-  margin-top: -3rem; 
+  font-size: 3rem; 
+  padding: 1.5rem;   
+  margin-top: -4rem; 
   max-width: 95%;
 }
 
 .mensaje-navidad {
-  font-size: 1.3rem;
-  line-height: 1.7; 
-  padding: 0 1.5rem; 
+  font-size: 1.1rem;
+  line-height: 1.6; 
+  padding: 0 1.5rem;
+  max-width: 95%;
 }
 }
 
 .h1 {
 color: #ffffff;
-margin-top: 3rem;
-font-size: 3.5rem;
+margin-top: 2rem;
+font-size: 3rem;
 text-align: center;
 }
 
@@ -75,6 +76,6 @@ text-align: center;
 @media screen and (max-width: 390px) {
 .h1 {
   margin-top: 4rem;
-  font-size: 3rem;
+  font-size: 2.2rem;
 }
 }
