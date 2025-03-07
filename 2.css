@@ -27,9 +27,9 @@ svg{
   padding: 2rem;
   display: block; 
   margin-top: 2rem; /* Смещение текста ниже */
-  max-width: 90%; /* Сделал текст шире */
-  margin-left: auto;
-  margin-right: auto;
+  max-width: auto; /* Сделал текст шире */
+  margin-left: 0;
+  margin-right: 0;
 }
 .container strong {
   font-weight: bold;
@@ -37,31 +37,31 @@ svg{
 }
 
 .mensaje-navidad {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: #f1f8f2; 
   margin-top: 1rem; /* Смещение ниже */
-  text-align: justify;
+  text-align: center;
   line-height: 1.8;
   font-family: 'Arial', sans-serif;
-  max-width: 90%; /* Сделал текст шире */
-  margin-left: auto;
-  margin-right: auto;
+  max-width: auto; /* Сделал текст шире */
+  margin-left: 0;
+  margin-right: 0;
 }
 
 /* Настройки для iPhone 13 (размер экрана 390x844px, но с высоким ppi) */
-@media screen and (max-width: 390px) {
+@media screen{
 .container {
   font-size: 3rem; 
-  padding: 1.5rem;   
+  padding: 0;   
   margin-top: 4rem; /* Смещение ниже */
-  max-width: 95%; /* Сделал текст шире */
+  max-width: auto; /* Сделал текст шире */
 }
 
 .mensaje-navidad {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   line-height: 1.6; 
-  padding: 0 1.5rem;
-  max-width: 95%; /* Сделал текст шире */
+  padding: 0;
+  max-width: auto; /* Сделал текст шире */
 }
 }
 
@@ -73,7 +73,7 @@ text-align: center;
 }
 
 /* Коррекция заголовка для iPhone 13 */
-@media screen and (max-width: 390px) {
+@media screen {
 .h1 {
   margin-top: 6rem; /* Смещение ниже */
   font-size: 2.2rem;
